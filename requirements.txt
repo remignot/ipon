@@ -1,0 +1,7 @@
+# Pypi modules/packages
+IPython
+pygments
+setuptools
+
+# github, gitlab, etc... modules/packages
+git+git://github.com/remignot/basilic@v0.1.0#egg=basilic
