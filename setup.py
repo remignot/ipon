@@ -2,7 +2,7 @@
 
 # ------------------------------------------------------------------------------
 """
-  Setup file of basilic_ipy. 
+  Setup file of ipon. 
 
   Author: Rémi Mignot, 2020.
 """
@@ -23,13 +23,13 @@ for req in requirements:
 # ------------------------------------------------------------------------------
 # Setup configuration
 setup(
-  name        = 'basilic_ipy', 
-  version     = '0.1.0', 
+  name        = 'ipon', 
+  version     = '0.1.1', 
   author      = 'Rémi Mignot', 
   # author_email = 'no@email.com', 
-  packages    = [ 'basilic_ipy' ], 
-  scripts     = [ 'basilic_ipy/bin/basilic_ipy' ], 
-  url         = 'https://github.com/remignot/basilic_ipy', 
+  packages    = [ 'ipon' ], 
+  scripts     = [ 'ipon/bin/ipon' ], 
+  url         = 'https://github.com/remignot/ipon', 
   license     = 'LICENSE.txt', 
   keywords    = [ 'ipython', 'shell', 'basilic' ], 
   description = 'A good prompt for python, based on ipython.', 
@@ -37,7 +37,7 @@ setup(
   
   include_package_data = True,
   package_data \
-    = { 'basilic_ipy': [ 'data/*', 'data/*/*', 'data/*/*/*' ] },
+    = { 'ipon': [ 'data/*', 'data/*/*', 'data/*/*/*' ] },
   
   python_requires   = '>=3',
   install_requires  = requirements, 

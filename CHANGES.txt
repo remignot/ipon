@@ -1,1 +1,4 @@
 v0.1.0:     first version. 
+v0.1.1:     add/redefine new shortcuts.
+            add a command history management. 
+            
