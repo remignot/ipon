@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+
+# ------------------------------------------------------------------------------
+"""
+  Launch the prompt of ipon 
+  
+  Use: 
+    $ ipon [argument(s)]
+  
+    "argument(s)" is a list of arguments to pass to ipython, after the 
+    ipon related argument, during the call. 
+    For example: 
+    $ ipon -i -c 'print( "Hello World !" )'
+  
+  Author: Rémi Mignot, 2020. 
+""" 
+
+# !!! This file MUST NOT be customized !!! 
+
+# Remark: 
+# - the arguments are passed to "ipon.start" through "sys.argv". 
+
+import ipon
+if __name__ == '__main__':
+  ipon.start( )
